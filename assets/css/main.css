@@ -2147,40 +2147,32 @@
 		}
 
 	h1 {
-		font-size: 4em;
+		font-size: 3.5em;
 		margin: 0 0 0.5em 0;
 		line-height: 1.3;
 	}
 
 	h2 {
-		font-size: 2.75em;
-	}
-
-	h3 {
 		font-size: 2.25em;
 	}
 
-	h4 {
+	h3 {
 		font-size: 2.1em;
 	}
 
-	h5 {
+	h4 {
 		font-size: 1.9em;
 	}
 
-	h6 {
+	h5 {
 		font-size: 1.7em;
 	}
 
-	@media screen and (max-width: 1680px) {
-
-		h1 {
-			font-size: 3.5em;
-		}
-
+	h6 {
+		font-size: 1.5em;
 	}
 
-	@media screen and (max-width: 980px) {
+	@media screen and (max-width: 1680px) {
 
 		h1 {
 			font-size: 3.25em;
@@ -2188,29 +2180,37 @@
 
 	}
 
+	@media screen and (max-width: 980px) {
+
+		h1 {
+			font-size: 3em;
+		}
+
+	}
+
 	@media screen and (max-width: 736px) {
 
 		h1 {
-			font-size: 2em;
-			line-height: 1.4;
+			font-size: 1.75em;
+			line-height: 1.2;
 		}
 
 		h2 {
-			font-size: 1.5em;
+			font-size: 1.25em;
 		}
 
 	}
 
 	sub {
-		font-size: 0.8em;
+		font-size: 0.7em;
 		position: relative;
-		top: 0.5em;
+		top: 0.4em;
 	}
 
 	sup {
-		font-size: 0.8em;
+		font-size: 0.7em;
 		position: relative;
-		top: -0.5em;
+		top: -0.4em;
 	}
 
 	blockquote {
