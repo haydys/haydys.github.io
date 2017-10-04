@@ -1,3 +1,6 @@
+---
+# this is an empty front matter
+---
 <!DOCTYPE HTML>
 <html>
 
@@ -56,6 +59,9 @@
                         
                         
                     {% include publications.html %}
+                    
+                    some text 
+                    
                     {% include recordedtalks.html %}
                     
                       
@@ -76,17 +82,7 @@
 
 							<!-- Menu -->
                 <nav id="menu">
-                    <header class="major">
-                        <h2>Menu</h2>
-                    </header>
-                    <ul>
-                        <li><a href="index.html">Homepage</a></li>
-                        <li><a href="research/research.html">Research</a></li>
-                        <li><a href="teaching/currentteaching.html">Teaching</a></li>
-                        <li><a href="#">CV</a></li>
-
-                    </ul>
-                </nav>
+                    {% include menu.html %}
 
                 <!-- Section -->
                 <section>
