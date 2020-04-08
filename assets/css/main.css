@@ -2393,7 +2393,7 @@
 	input[type="search"],
 	input[type="url"],
 	select {
-		height: 2.75em;
+		height: 2.5em;
 	}
 
 	textarea {
